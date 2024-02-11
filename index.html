@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="img/9.png">
+    <style>
+      *{/*Los parámetros aplicados aquí afectarán a toda la página*/
+        font-family: Times; /*Fuente de todo el documento*/
+        margin: 10px;  /*establece los márgenes de un elemento especificando entre 1 y 4 valores*/
+      }
+
+      header, footer { /*al incluir más de una etiqueta en un grupo, estos parámetros serán aplicados en ambas etiquetas*/
+        display: flex;/*establece los tipos de visualización interna y externa de un elemento*/
+        justify-content: center; /*justifica el contenido de la etiqueta*/
+        background-color: #CDCDE7;
+        height: 65px;
+      }
+
+      #foto {
+        border-radius: 10px; /*crea un radio en los parámetros especificados*/
+        box-shadow: 15px; /*crea una sombrea interna en la imagen*/
+        float: right; /*ubica un elemento al lado izquierdo o derecho de su contenedor para aparecer a su costado*/
+        width: 200px;
+        height: 200px;
+      }
+
+      #navegador{
+        background-color: rgba(246, 238, 167);
+      }
+
+      #name:hover { /*el parámetro hover modifica la reacción de la página al contacto con el mouse*/
+        font-weight: bold; /*decide el grosor de cualquier línea o de cualquier fuente*/
+        color: white;
+      }
+
+      ol {
+        margin: 20px 0 0 -20px;
+        color: rgb(94, 84, 84);
+        font-size: 16px; /*tamaño de la fuente utilizada*/
+      }
+
+      a {
+        text-decoration: none; /*decide si al enlace se lo coloca con azul y subrayado*/
+        color: red;
+      }
+
+      a:hover {
+        font-weight: bold;
+        color: black;
+      }
+
+      a:active { /*active indica que si el enlace junto al que está, es presionado, se cumplirán ciertos parámetros en la misma*/
+         color: purple;
+      }
+
+      li {
+        margin-top: 18px;
+      }
+    </style>
+
+    <title>FISICA</title>
+  </head>
+  <body background="img/18.jpg">
+    <header>
+<marquee DIRECTION=right > 
+<FONT FACE=Time New Roman COLOR=black SIZE=+9>
+BIENVENIDOS
+</FONT>
+</marquee>
+      
+    </header>
+    <main>
+      <h1>La magia es tan sólo una extensión de la física. La fantasía son números. Ése es el truco</h1>
+    </main>
+    <nav id="navegador">
+      
+        <a href="index.html">Inicio</a>
+        <a href="cinematica.html">Cinemática</a>
+        <a href="dinamica.html">Dinámica</a>
+        <a href="redes sociales.html">Redes Sociales</a>
+      
+    </nav>
+    <aside>
+      <img id="foto" src="img/7.png" width="300" height="200" class="foto" />
+      <h3>Objetivos Generales</h3>
+      <p>Explicar conceptos físicos de manera accesible para un público general.</p>
+      <p> Proporcionar materiales educativos, como tutoriales, videos y actividades prácticas, para estudiantes de todos los niveles educativos.</p>
+      <h4>Definición</h4>
+      <p>¿Qué es la física?</p>
+<p>La física, del griego fisis («naturaleza»), es la ciencia natural que estudia, mediante leyes fundamentales, la energía, la materia, el tiempo y el espacio, es decir, el universo mismo.
+
+La física es una de las disciplinas académicas más antiguas, cuyas raíces se remontan a los inicios de la civilización, cuando el hombre empezó a tratar de entender las fuerzas que regían el mundo a su alrededor.
+
+Se trata de una disciplina tanto teórica (describe las leyes del universo) como experimental (pone en práctica de hipótesis respecto a dichas leyes), y se adhiere al modelo de comprobación y legitimación impulsado por el método científico. Es una de las ciencias fundamentales o centrales que existen, y dentro de su campo de estudio convergen a menudo la química, la biología y la electrónica, entre otras.</p>
+<p>La física como la conocemos hoy se describe mediante cuatro marcos teóricos que dependen del tamaño de la materia en estudio y de la velocidad de su movimiento. Estos son:</p>
+     <ul>
+        <li><h4>Mecánica clásica.</h4> Se ocupa de los movimientos perceptibles en cuerpos macroscópicos, cuyas velocidades son muy pequeñas en comparación con la velocidad de la luz.</li>
+        <li><h4>Mecánica relativista</h4>Sustentada en los desarrollos teóricos de Albert Einstein durante el siglo XX, se asemeja a la clásica en su carácter determinista. Sin embargo, la mecánica relativista describe fenómenos que se encuentran dentro del marco de la teoría de la relatividad especial, que describe el comportamiento de los cuerpos que se mueven a velocidades cercanas a la de la luz; y de la Teoría general de la relatividad, que es una formulación teórica para el campo gravitatorio (gravedad).</li>
+        <li><h4>Mecánica cuántica</h4>Estudia sistemas de muy pequeña escala, como los átomos y las partículas elementales. Describe sus interacciones mediante las tres fuerzas que imperan a estas escalas: la fuerza fuerte, débil y electromagnética.</li>
+        
+      </ul>
+    </aside>
+<embed align = "center" src="https://view.genial.ly/63beb359324ad30018b85e1a/presentation-la-fisica-y-sus-ramas" type="text/html" width="600px" height="375px" allowfullscreen="true">
+    <footer>
+      <p id="direccion">
+       Quito-Ecuador, <span>Fisica Divertida</span> 
+      </p>
+    </footer>
+  </body>
+</html>
